@@ -276,7 +276,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
   scene.add(ghostGroup)
 
   new GLTFLoader().load(
-    'assets/img/openghost-mascot.glb',
+    import.meta.env.BASE_URL + 'openghost-mascot.glb',
     (gltf) => {
       applyMaterials(gltf.scene)
       ghostGroup.add(gltf.scene)
