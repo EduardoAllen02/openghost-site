@@ -1,6 +1,7 @@
 // ghost3d.js — Ghost 3D: cuerpo de partículas + GLB (ring/eyes/orbs) + scroll waypoints
 import * as THREE from 'three'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
+import './water-effect.js'
 
 ;(function () {
   'use strict'
